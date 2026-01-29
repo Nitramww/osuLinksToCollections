@@ -1,6 +1,6 @@
-# osu! Collection Builder - Refactored
+# osu! Links to Collection
 
-A Rust application that fetches beatmap data from the osu! API and creates a `collection.db` file for importing into Collection Manager and Batch Beatmap Downloader.
+A Rust application that fetches beatmap data from the osu! API and creates a `collection.db` file for importing into Collection Manager.
 
 ## Usage
 
