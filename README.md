@@ -100,10 +100,14 @@ Loaded 148 beatmap hashes from file
 
 ```toml
 [dependencies]
-osu-db = "0.1"
-rosu-v2 = "0.9"
+regex = "1.10"
+reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
-url = "2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+osu-db = "0.3"
+rosu-v2 = "0.11.0"
+url = "2.5.8"
 ```
 
 ## Rate Limiting
